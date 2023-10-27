@@ -6,27 +6,15 @@ import { Login } from '../model/login';
 })
 export class LoginService {
 
-  users: Login[] = []
+user:Login = {
+  username: "ionar",
+  password: "123",
+}
   constructor() { 
-
-    const user:Login = {
-      username: "Carlos",
-      password: "asteriscos",
-    }
-    this.users.push(user);
-
-    const user2:Login = {
-      username: "Ionar",
-      password: "asteriscos",
-    }
-    this.users.push(user2);
-
-  }
-  getList() : Login[]{
-    return this.users;
   }
 
-  getByUsername(username: string){
-    return this.users.find( user => user.username === username);
+  login(username: string, password: string){
+    debugger;
+    return this.user.username == username && this.user.password == password;
   }
 }

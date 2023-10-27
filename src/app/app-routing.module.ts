@@ -8,7 +8,6 @@ const routes: Routes = [
   { path: "customer-list",component: CustomerListComponent },
   { path: "customer-edit/:id", component: CustomerEditComponent },
   { path: "login", component: LoginComponent },
-  { path: "", component: LoginComponent }
 ];
 
 @NgModule({
