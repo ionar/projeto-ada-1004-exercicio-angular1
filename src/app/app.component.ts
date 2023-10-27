@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projeto-ada-1004-exercicio';
+
+  userIsLogged() {
+    return false
+  }
 }
