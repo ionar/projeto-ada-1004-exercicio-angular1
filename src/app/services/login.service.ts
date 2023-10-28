@@ -7,8 +7,8 @@ import { Login } from '../model/login';
 export class LoginService {
 
 user:Login = {
-  username: "ionar",
-  password: "123",
+  username: "admin",
+  password: "admin",
 }
   constructor() { 
   }
